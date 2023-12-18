@@ -1,0 +1,83 @@
+/* CSS BOILERPLATE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  /* display: inline; */
+  display: block;
+  /* display: inline-block; */
+  background: gold;
+  /* width: 200px/; */
+  /* height: 200px; */
+}
+
+h1,
+h2 {
+  /* display: block; */
+  /* display: inline; */
+  /* display: inline-block;
+  background: green;
+  width: 400px; */
+}
+
+.heading1 {
+  display: none;
+}
+
+.box-model {
+  background-color: #ddd;
+  width: 200px;
+  height: 200px;
+}
+
+.box-model h1 {
+  background-color: #bbb;
+}
+
+.box-model p {
+  background-color: #999;
+}
+
+.box-model {
+  /* padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px; */
+  padding: 10px;
+  /* padding: 10px 20px; */
+  /* padding: 10px 20px 30px; */
+  /* padding: 10px 20px 30px 40px; */
+
+  /* margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px; */
+  /* margin: 10px; */
+  margin: 10px 20px;
+  /* margin: 10px 20px 30px; */
+  /* margin: 10px 20px 30px 40px; */
+  /* margin-top: -20px; */
+  /* margin: 0 auto; */
+
+  /* border-top: 10px solid red;
+  border-right: 10px double green;
+  border-bottom: 10px dotted gold;
+  border-left: 10px dashed blue; */
+  /* border-width: 10px;
+  border-style: solid;
+  border-color: red; */
+  border: 10px solid red;
+
+  /* border-radius: 10px; */
+  /* border-radius: 10px 30px; */
+  /* border-radius: 10px 20px 30px 40px; */
+  /* border-radius: 50%; */
+
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+}
